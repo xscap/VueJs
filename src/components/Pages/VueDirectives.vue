@@ -1,5 +1,6 @@
 <script setup >
 import { ref } from 'vue'
+import { workoutProgram } from '../../utils'; //Here we are mainly using a json type of js file which is the primary source of data in the codebase, As we previously imported in react we are importing it in VueJS as the same process
 const name = ref('')
 // This is a Vue 3 component using the Composition API
 const number =  80;
@@ -18,6 +19,8 @@ const Arrowfuc = () => {
     console.log("Hello from Arrowfunction");
     document.getElementsByClassName("hi")[0].innerHTML = "This is changed by Arrow Function";
 }
+
+console.log(workoutProgram)
 
 </script>
 
