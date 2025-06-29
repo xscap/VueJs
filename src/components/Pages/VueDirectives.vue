@@ -36,7 +36,7 @@ console.log(workoutProgram)
     <p v-else> You suck</p>
 
     <li v-for="i in items" :key="i.id">
-        {{ i.name }}
+        <h2> This part has the key implementation {{ i.name }} </h2>
     </li>
 
     <a v-bind:href ="proflink" target="_blank">Click</a>
