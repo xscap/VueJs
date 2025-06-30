@@ -1,0 +1,8 @@
+Here We will discuss about Vue Props which all are significantly important.
+
+Props are a way to pass data from a parent component to a child component in Vue.
+Think of them as “custom HTML attributes” you define for your own components.
+
+Why Use Props?
+Reusable components: Make components flexible and customizable.
+One-way data flow: Data goes from parent to child, making your app easier to understand and debug.

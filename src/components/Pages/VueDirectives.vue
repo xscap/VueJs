@@ -1,6 +1,9 @@
 <script setup >
 import { ref } from 'vue'
-import { workoutProgram } from '../../utils'; //Here we are mainly using a json type of js file which is the primary source of data in the codebase, As we previously imported in react we are importing it in VueJS as the same process
+import { workoutProgram } from '../../utils';
+import Button from './Button.vue'
+import ParentComponent from './ParentComponent.vue';
+//Here we are mainly using a json type of js file which is the primary source of data in the codebase, As we previously imported in react we are importing it in VueJS as the same process
 const name = ref('')
 // This is a Vue 3 component using the Composition API
 const number =  80;
@@ -25,7 +28,7 @@ console.log(workoutProgram)
 </script>
 
 <template>
-
+<Button label="Click Me"></Button>>
 <!-- THIS IS THE CONCEPT O INITIA V-IF AND V-ELSE -->
 <div class="vdirs">
     <div class="classes">
@@ -49,6 +52,8 @@ console.log(workoutProgram)
     <h4>Here is the cahnge I want to push it on github
         
     </h4>
+
+    <ParentComponent />
 </div>
     
 </template> 
