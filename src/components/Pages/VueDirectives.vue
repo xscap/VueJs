@@ -29,7 +29,7 @@ console.log(workoutProgram)
 
 <template>
 <Button label="Click Me"></Button>>
-<!-- THIS IS THE CONCEPT O INITIA V-IF AND V-ELSE -->
+<!-- THIS IS THE CONCEPT O INITIAL V-IF AND V-ELSE -->
 <div class="vdirs">
     <div class="classes">
         <h5 class="hi">This is Changing......</h5>
